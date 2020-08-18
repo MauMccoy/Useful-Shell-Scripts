@@ -13,10 +13,25 @@ git init
 
 git add .
 
-echo "Commit message: "
+echo "\e[93Commit message: "
 
 read message
 
 git commit -m "$message"
 
+echo "\e[93Enter your repo URL"
+
+read message2
+
+git remote add origin $message2 
+
+echo "\e[92Your remote has been created"
+
+git remote -v
+
 git push -f origin master
+
+Echo "\e[92And your commits pushed to the cloud . . . :)"
+
+
+
