@@ -13,7 +13,7 @@ git init
 
 git add .
 
-echo "\033[1;92m Commit message: \033[0m"
+echo "\033[1;31m Commit message: \033[0m"
 
 read message
 

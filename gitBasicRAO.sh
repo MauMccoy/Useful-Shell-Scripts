@@ -25,7 +25,7 @@ read message2
 
 git remote add origin $message2 
 
-echo "\033[1;31m Remote created :) \033[0m"
+echo "\092[1;31m Remote created :) \033[0m"
 
 git remote -v
 
