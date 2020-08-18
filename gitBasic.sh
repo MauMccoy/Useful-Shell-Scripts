@@ -13,10 +13,12 @@ git init
 
 git add .
 
-echo "Commit message: "
+echo "\033[1;31m Commit message: "
 
 read message
 
 git commit -m "$message"
 
 git push -f origin master
+
+echo "\033[1;31m Everything has been succefully commited"
