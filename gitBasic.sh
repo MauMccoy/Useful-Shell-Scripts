@@ -13,7 +13,7 @@ git init
 
 git add .
 
-figlet -f small "$(Commit Message:  | toilet -f term -F border --gay)"
+toilet "Commit Message" -F gay -f smblock
 
 read message
 
