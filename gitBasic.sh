@@ -13,7 +13,7 @@ git init
 
 git add .
 
-echo "\033[1;31mCommit message:\033[0m"
+figlet -f larry3d "\033[1;31mCommit message:\033[0m"
 
 read message
 
@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-echo "\033[1;92mEverything has been succefully commited\033[0m"
+figlet -f larry3d "\033[1;92mEverything has been succefully commited\033[0m"
