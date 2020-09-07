@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-figlet -f small "Upload Succesful"
+toilet "Commit Succesful" -F gay -f smblock
