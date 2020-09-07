@@ -13,7 +13,7 @@ git init
 
 git add .
 
-figlet -f bubbles "Commit message:"
+figlet -f bubble "Commit message:"
 
 read message
 
@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-figlet -f bubbles "Upload Succesful"
+figlet -f bubble "Upload Succesful"
