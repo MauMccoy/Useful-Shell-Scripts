@@ -13,7 +13,7 @@ git init
 
 git add .
 
-figlet -f small "Commit message:"
+figlet -f mini "Commit message:"
 
 read message
 
@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-figlet -f small "Upload Succesful"
+figlet -f mini "Upload Succesful"
