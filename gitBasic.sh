@@ -13,7 +13,7 @@ git init
 
 git add .
 
-figlet -f ntgreek "Commit message:"
+figlet -f bubbles "Commit message:"
 
 read message
 
@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-figlet -f ntgreek "Upload Succesful"
+figlet -f bubbles "Upload Succesful"
