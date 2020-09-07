@@ -13,7 +13,7 @@ git init
 
 git add .
 
-figlet -f larry3d "Commit message:"
+figlet -f ntgreek "Commit message:"
 
 read message
 
@@ -21,4 +21,4 @@ git commit -m "$message"
 
 git push -f origin master
 
-figlet -f larry3d "Upload Succesful"
+figlet -f ntgreek "Upload Succesful"
