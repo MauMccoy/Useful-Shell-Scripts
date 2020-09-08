@@ -3,7 +3,7 @@
 git_basic : Add more info
 
 ## Preview
-[![Preview](https://github.com/MauMccoy/Half-White/blob/master/assets/img/Screen%20Shot%202020-08-27%20at%2012.05.25%20PM.png)](https://maumccoy.github.io/Useful-Shell-Scripts/)
+[![Preview](https://github.com/MauMccoy/Useful-Shell-Scripts/blob/master/git_basicSlide.png)](https://maumccoy.github.io/Useful-Shell-Scripts/)
 
 
 ## Bugs and Issues
