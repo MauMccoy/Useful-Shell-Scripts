@@ -3,7 +3,7 @@
 git_basic : Add more info
 
 ## Preview
-[![Preview](https://github.com/MauMccoy/Useful-Shell-Scripts/blob/master/git_basicSlide.png)](https://maumccoy.github.io/Useful-Shell-Scripts/)
+[![Preview](https://github.com/MauMccoy/Useful-Shell-Scripts/blob/master/git_basicSlide2.png)](https://maumccoy.github.io/Useful-Shell-Scripts/)
 
 
 ## Bugs and Issues
