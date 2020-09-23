@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This program is a shortcut for git cloud uploads:
-#
+toilet "Commit Message" -F gay -f smblock#
 # git init
 # git add .
 # git commit -m ''
@@ -13,25 +13,25 @@ git init
 
 git add .
 
-echo "\033[1;31mCommit message:\033[0m"
+toilet "Commit Message" -F gay -f smblock
 
 read message
 
-git commit -m "\033[1;31m$message\033[0m"
+git commit -m "$message"
 
-echo "\033[1;31mRepo URl\033[0m"
+toilet "Repo URL: " -F gay -f smblock
 
 read message2
 
 git remote add origin $message2
 
-echo "\092[1;31mRemote created :)\033[0m"
+toilet "Remote Created" -F gay -f smblock
 
 git remote -v
 
 git push -f origin master
 
-Echo "\033[1;92myour commits have been pushed :)\033[0m"
+toilet "Commits Pushed Succesfully" -F gay -f smblock
 
 
 
